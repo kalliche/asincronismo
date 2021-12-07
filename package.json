@@ -1,0 +1,27 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "trabajar en asincronismo en JacaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalliche/asincronismo.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "kalliche16",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalliche/asincronismo/issues"
+  },
+  "homepage": "https://github.com/kalliche/asincronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
