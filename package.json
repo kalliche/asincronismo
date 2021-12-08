@@ -6,7 +6,9 @@
   "scripts": {
     "callback": "node src/callback/index.js",
     "callback:challenge": "node src/callback/challenge.js",
-    "promise": "node src/promise/index.js"
+    "promise": "node src/promise/index.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   },
   "homepage": "https://github.com/kalliche/asincronismo#readme",
   "dependencies": {
+    "dayjs": "^1.10.7",
     "xmlhttprequest": "^1.8.0"
   }
 }
